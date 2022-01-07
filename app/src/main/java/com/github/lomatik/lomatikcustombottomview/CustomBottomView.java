@@ -50,7 +50,7 @@ public class CustomBottomView extends View {
         int y = getHeight() / 2;
         int radius = y;
 
-        paint.setColor(Color.parseColor("#FFFFFFBB"));
+        paint.setColor(Color.parseColor("#FFFFAAAA"));
         canvas.drawCircle(x,y,radius,paint);
     }
 }
